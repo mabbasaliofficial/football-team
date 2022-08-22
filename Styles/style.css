@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* ------------ */
 body {
   font-family: "Roboto", sans-serif;
+  background: #000000;
 }
 header {
   width: 100%;
@@ -24,4 +26,79 @@ header {
 .heading-paragraph {
   color: #ffffff;
   text-align: center;
+}
+main {
+  display: flex;
+  margin-top: 100px;
+}
+.player-section {
+  display: flex;
+}
+.player-card {
+  margin: 15px;
+  width: 17rem;
+  height: 375px;
+  border: 1px solid #434343;
+  background-color: #0d0d0d;
+}
+.player-image {
+  width: 100%;
+}
+.player-name {
+  margin-top: 5%;
+  color: #ffffff;
+  text-align: center;
+}
+.player-status {
+  margin-top: 5%;
+  color: #B3B3B3;
+  text-align: center;
+}
+.select-button {
+  margin: 5%;
+  display: block;
+  text-decoration: none;
+  background-color: #015196;
+  padding: 10px 60px;
+  color: #ffffff;
+  text-align: center;
+}
+.select-player {
+  width: 17rem;
+  margin: 15px;
+  height: 375px;
+  border: 1px solid #434343;
+  background-color: #0d0d0d;
+}
+.budget-section {
+  margin: 15px;
+  width: 17rem;
+  height: 450px;
+  padding: 15px 5px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #434343;
+  background-color: #0d0d0d;
+}
+.input-section {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculate-button {
+  margin: 5%;
+  display: block;
+  text-decoration: none;
+  background-color: #015196;
+  padding: 10px 60px;
+  color: #ffffff;
+  text-align: center;
+}
+.input-option {
+  padding: 5px;
+}
+.player-selected {
+  display: flex;
+  flex-direction: column;
 }

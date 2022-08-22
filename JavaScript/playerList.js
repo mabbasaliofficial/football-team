@@ -6,8 +6,17 @@ document.getElementById("select-messi").addEventListener("click", function () {
   const li = document.createElement("li");
   li.innerText = playerId.innerText;
   const ol = document.getElementById("player-list");
-  ol.appendChild(li);
+
+  const playerList = document.querySelector("#player-list").childNodes.length;
+  if (playerList < 5) {
+    ol.appendChild(li);
+  } else {
+    alert("There is no limit");
+  }
 });
+
+/* ---------------------------------------------------------
+------------------------------------------------------------ */
 document.getElementById("select-neymar").addEventListener("click", function () {
   const playerId = document.getElementById("neymar");
   document.getElementById("select-neymar").disabled = true;
@@ -16,8 +25,16 @@ document.getElementById("select-neymar").addEventListener("click", function () {
   const li = document.createElement("li");
   li.innerText = playerId.innerText;
   const ol = document.getElementById("player-list");
-  ol.appendChild(li);
+
+  const playerList = document.querySelector("#player-list").childNodes.length;
+  if (playerList < 5) {
+    ol.appendChild(li);
+  } else {
+    alert("There is no limit");
+  }
 });
+/* ---------------------------------------------------------
+------------------------------------------------------------ */
 document.getElementById("select-mbappe").addEventListener("click", function () {
   const playerId = document.getElementById("mbappe");
   document.getElementById("select-mbappe").disabled = true;
@@ -26,8 +43,16 @@ document.getElementById("select-mbappe").addEventListener("click", function () {
   const li = document.createElement("li");
   li.innerText = playerId.innerText;
   const ol = document.getElementById("player-list");
-  ol.appendChild(li);
+
+  const playerList = document.querySelector("#player-list").childNodes.length;
+  if (playerList < 5) {
+    ol.appendChild(li);
+  } else {
+    alert("There is no limit");
+  }
 });
+/* -----------------------------------------------------------
+-------------------------------------------------------------- */
 document.getElementById("select-machado").addEventListener("click", function () {
   const playerId = document.getElementById("machado");
   document.getElementById("select-machado").disabled = true;
@@ -36,8 +61,16 @@ document.getElementById("select-machado").addEventListener("click", function () 
   const li = document.createElement("li");
   li.innerText = playerId.innerText;
   const ol = document.getElementById("player-list");
-  ol.appendChild(li);
+
+  const playerList = document.querySelector("#player-list").childNodes.length;
+  if (playerList < 5) {
+    ol.appendChild(li);
+  } else {
+    alert("There is no limit");
+  }
 });
+/* -------------------------------------------------------------
+---------------------------------------------------------------- */
 document.getElementById("select-ramos").addEventListener("click", function () {
   const playerId = document.getElementById("ramos");
   document.getElementById("select-ramos").disabled = true;
@@ -46,8 +79,16 @@ document.getElementById("select-ramos").addEventListener("click", function () {
   const li = document.createElement("li");
   li.innerText = playerId.innerText;
   const ol = document.getElementById("player-list");
-  ol.appendChild(li);
+
+  const playerList = document.querySelector("#player-list").childNodes.length;
+  if (playerList < 5) {
+    ol.appendChild(li);
+  } else {
+    alert("There is no limit");
+  }
 });
+/* ---------------------------------------------------------
+------------------------------------------------------------ */
 document.getElementById("select-sanches").addEventListener("click", function () {
   const playerId = document.getElementById("sanches");
   document.getElementById("select-sanches").disabled = true;
@@ -56,5 +97,11 @@ document.getElementById("select-sanches").addEventListener("click", function () 
   const li = document.createElement("li");
   li.innerText = playerId.innerText;
   const ol = document.getElementById("player-list");
-  ol.appendChild(li);
+
+  const playerList = document.querySelector("#player-list").childNodes.length;
+  if (playerList < 5) {
+    ol.appendChild(li);
+  } else {
+    alert("There is no limit");
+  }
 });

@@ -1,0 +1,1 @@
+const addedPlayer = document.querySelector('#player-list').childNodes.length

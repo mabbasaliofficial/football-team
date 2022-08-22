@@ -1,14 +1,13 @@
 document.getElementById("player-cost").addEventListener("click", function () {
   const addedPlayer = document.querySelector("#player-list").childNodes.length;
+  const numberOfPlayer = parseInt(addedPlayer);
 
   const playerFee = document.getElementById("player-fee");
   const tolalFeeString = playerFee.value;
   const totalFeeNumber = parseInt(tolalFeeString);
-  const totalFee = totalFeeNumber * addedPlayer;
+  const totalFee = totalFeeNumber * numberOfPlayer;
 
   const playerExpensesElement = document.getElementById("player-expenses");
-  // const playerExpensesText = playerExpensesElement.innerText;
-  // playerExpensesElement.innerText = totalFee;
   playerExpensesElement.innerText = totalFee;
 });
 

@@ -56,20 +56,29 @@ main {
   text-align: center;
 }
 .select-button {
-  margin: 5%;
+  margin: 5% auto;
   display: block;
-  text-decoration: none;
+  border-style: none;
   background-color: #015196;
-  padding: 10px 60px;
+  padding: 10px 100px;
   color: #ffffff;
   text-align: center;
 }
 .select-player {
+  padding: 25px;
   width: 17rem;
   margin: 15px;
   height: 375px;
   border: 1px solid #434343;
-  background-color: #0d0d0d;
+  background-color: #000000;
+}
+#player-list{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#player-list li{
+  color: #B3B3B3;
+  margin-top: 25px;
 }
 .budget-section {
   margin: 15px;
@@ -88,11 +97,11 @@ main {
   align-items: center;
 }
 .calculate-button {
-  margin: 5%;
+  margin: 5% auto;
   display: block;
-  text-decoration: none;
+  border-style: none;
   background-color: #015196;
-  padding: 10px 60px;
+  padding: 10px 100px;
   color: #ffffff;
   text-align: center;
 }

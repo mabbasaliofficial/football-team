@@ -40,47 +40,47 @@
         <div class="player-section">
           <div class="player-card">
             <img class="player-image" src="Images/messi.png" alt="" />
-            <h3 class="player-name">Lionel Messi</h3>
+            <h3 id="messi" class="player-name">Lionel Messi</h3>
             <p class="player-status">36 Goals - 120 Assist</p>
             <br />
-            <a class="select-button">Select</a>
+            <button id="select-messi" class="select-button">Select</button>
           </div>
           <div class="player-card">
             <img class="player-image" src="Images/nymer.png" alt="" />
-            <h3 class="player-name">Neymar Jr</h3>
+            <h3 id="neymar" class="player-name">Neymar Jr</h3>
             <p class="player-status">36 Goals - 120 Assist</p>
             <br />
-            <a class="select-button">Select</a>
+            <button id="select-neymar" class="select-button">Select</button>
           </div>
           <div class="player-card">
             <img class="player-image" src="Images/mbappe.png" alt="" />
-            <h3 class="player-name">Kylian Mbappé</h3>
+            <h3 id="mbappe" class="player-name">Kylian Mbappé</h3>
             <p class="player-status">36 Goals - 120 Assist</p>
             <br />
-            <a class="select-button">Select</a>
+            <button id="select-mbappe" class="select-button">Select</button>
           </div>
         </div>
         <div class="player-section">
           <div class="player-card">
             <img class="player-image" src="Images/machado.png" alt="" />
-            <h3 class="player-name">Vítor Machado</h3>
+            <h3 id="machado" class="player-name">Vítor Machado</h3>
             <p class="player-status">36 Goals - 120 Assist</p>
             <br />
-            <a class="select-button">Select</a>
+            <button id="select-machado" class="select-button">Select</button>
           </div>
           <div class="player-card">
             <img class="player-image" src="Images/ramos.png" alt="" />
-            <h3 class="player-name">Sergio Ramos</h3>
+            <h3 id="ramos" class="player-name">Sergio Ramos</h3>
             <p class="player-status">36 Goals - 120 Assist</p>
             <br />
-            <a class="select-button">Select</a>
+            <button id="select-ramos" class="select-button">Select</button>
           </div>
           <div class="player-card">
             <img class="player-image" src="Images/sanches.png" alt="" />
-            <h3 class="player-name">Renato Sanches</h3>
+            <h3 id="sanches" class="player-name">Renato Sanches</h3>
             <p class="player-status">36 Goals - 120 Assist</p>
             <br />
-            <a class="select-button">Select</a>
+            <button id="select-sanches" class="select-button">Select</button>
           </div>
         </div>
       </section>
@@ -88,6 +88,9 @@
         <div class="player-selected">
           <div class="select-player">
             <h2 class="player-name">Selected Player</h2>
+            <ol id="player-list">
+              <!----  ---->
+            </ol>
           </div>
           <div class="budget-section">
             <h2>Budget</h2>
@@ -95,7 +98,7 @@
               <p>Per Player</p>
               <input class="input-option" type="text" name="" id="" />
             </div>
-            <a class="calculate-button">Calculate</a>
+            <button class="calculate-button">Calculate</button>
             <div class="input-section">
               <p>Player Expenses</p>
               <p>$<span>00</span></p>
@@ -108,7 +111,7 @@
               <p>Coach</p>
               <input class="input-option" type="text" name="" id="" />
             </div>
-            <a class="calculate-button">Total</a>
+            <button class="calculate-button">Total</button>
             <div class="input-section">
               <p>Total</p>
               <p>$<span>00</span></p>
@@ -124,8 +127,6 @@
       <p>Copyright @ 2022 All Rights Reserved.</p>
     </footer>
     <!-- Footer Section End -->
-    <footer>
-
-    </footer>
+    <script src="JavaScript/playerList.js"></script>
   </body>
 </html>

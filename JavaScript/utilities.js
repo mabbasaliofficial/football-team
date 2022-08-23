@@ -14,6 +14,8 @@ function playerList(playerName, selectButton) {
     button.setAttribute("disabled", true);
     button.style.backgroundColor = "gray";
   } else {
-    alert("There is no limit");
+    alert("You cannot select more than five players.");
   }
 }
+
+// <---------------Player List Common Function---------------> //
